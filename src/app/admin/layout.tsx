@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
-  title: 'Admin Panel | EmployeePass',
+  title: 'Admin Panel | Atria Employee Verification',
   description: 'Manage employee access and view statuses.',
 };
 

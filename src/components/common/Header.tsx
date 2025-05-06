@@ -7,7 +7,7 @@ export default function Header() {
     <header className="bg-primary text-primary-foreground py-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
-          EmployeePass
+          Atria Employee Verification
         </Link>
         <nav>
           <Button variant="ghost" asChild>

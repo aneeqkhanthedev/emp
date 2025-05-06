@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'EmployeePass',
+  title: 'Atria Employee Verification',
   description: 'Manage Employee Status and QR Codes',
 };
 

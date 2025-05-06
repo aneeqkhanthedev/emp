@@ -1,4 +1,4 @@
-# **App Name**: EmployeePass
+# **App Name**: Atria Employee Verification
 
 ## Core Features:
 

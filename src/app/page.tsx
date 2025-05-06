@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="flex flex-col items-center text-center space-y-8">
-      <h1 className="text-4xl font-bold text-primary mt-8">Welcome to EmployeePass</h1>
+      <h1 className="text-4xl font-bold text-primary mt-8">Welcome to Atria Employee Verification</h1>
       <p className="text-lg text-muted-foreground max-w-2xl">
         Easily manage employee statuses and generate static QR codes for quick verification. Authorized personnel can update employee details and access levels seamlessly.
       </p>

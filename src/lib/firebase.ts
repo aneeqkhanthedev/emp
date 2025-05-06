@@ -1,6 +1,6 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-// import { getAuth } from 'firebase/auth'; // Add if you need auth later
+import { getAuth } from 'firebase/auth'; // Add if you need auth later
 // import { getStorage } from 'firebase/storage'; // Add if you need storage later
 // import { getAnalytics } from "firebase/analytics"; // Add if you need analytics later
 
@@ -17,8 +17,8 @@ const firebaseConfig = {
 // Initialize Firebase only if it hasn't been initialized yet
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 const db = getFirestore(app);
-// const auth = getAuth(app); // Add if you need auth later
+const auth = getAuth(app); // Add if you need auth later
 // const storage = getStorage(app); // Add if you need storage later
 // const analytics = typeof window !== 'undefined' ? getAnalytics(app) : null; // Initialize Analytics only on client side
 
-export { db /*, auth, storage, analytics */ }; // Export necessary services
+export { db, auth /*, auth, storage, analytics */ }; // Export necessary services
